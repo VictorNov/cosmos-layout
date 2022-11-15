@@ -1,0 +1,35 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 0 3.333rem;
+
+  &Main {
+    padding-top: 2.367rem;
+    background: url("/bg/screen_1_bg.jpg") no-repeat center center;
+    background-size: cover;
+  }
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  grid-gap: 2.167rem;
+  align-items: center;
+  max-width: 100%;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 2.633rem;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  margin: auto 0;
+
+  ul {
+    display: flex;
+    gap: 1.3rem;
+  }
+}

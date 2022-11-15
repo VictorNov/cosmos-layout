@@ -1,0 +1,28 @@
+.socialNetworks {
+  display: flex;
+  gap: 2.14rem;
+}
+
+.socialNetworks__link {
+  display: flex;
+  height: auto;
+  transition: opacity .3s;
+
+  &--twitch {
+    width: 1.4rem;
+  }
+
+  &--twitter {
+    display: flex;
+    width: 1.467rem;
+  }
+
+  &--ant-design {
+    display: flex;
+    width: 1.667rem;
+  }
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
